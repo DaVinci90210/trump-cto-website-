@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trump CTO - Make Crypto Great Again!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">TRUMP CTO</div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <h1>MAKE CRYPTO GREAT AGAIN!</h1>
+            <div class="countdown" id="countdown">
+                <div class="countdown-item">
+                    <div id="days">00</div>
+                    <small>DAYS</small>
+                </div>
+                <div class="countdown-item">
+                    <div id="hours">00</div>
+                    <small>HOURS</small>
+                </div>
+                <div class="countdown-item">
+                    <div id="minutes">00</div>
+                    <small>MINUTES</small>
+                </div>
+                <div class="countdown-item">
+                    <div id="seconds">00</div>
+                    <small>SECONDS</small>
+                </div>
+            </div>
+            <a href="#" class="cto-button">BUY NOW</a>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="features">
+            <div class="feature-card">
+                <i class="fas fa-rocket fa-3x"></i>
+                <h3>MEGA LAUNCH</h3>
+                <p>The biggest crypto launch in history - 10x guaranteed!</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-shield-alt fa-3x"></i>
+                <h3>SAFE & SECURE</h3>
+                <p>Audited by the best security experts in America</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-chart-line fa-3x"></i>
+                <h3>MOON SHOT</h3>
+                <p>Low market cap with massive growth potential</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>TRUMP CTO - THE OFFICIAL TRUMP CRYPTO TOKEN</p>
+            <div style="margin: 20px 0;">
+                <a href="#"><i class="fab fa-twitter fa-2x" style="color: white; margin: 0 10px;"></i></a>
+                <a href="#"><i class="fab fa-telegram fa-2x" style="color: white; margin: 0 10px;"></i></a>
+            </div>
+            <p style="font-size: 12px; opacity: 0.8;">Disclaimer: This is a meme token with no political affiliation. Not financial advice.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
